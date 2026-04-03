@@ -10,20 +10,20 @@ Este taller es una implementación mínima de un sistema de autenticación utili
    ```bash
    pip install -r requirements.txt
 
-##Login exitoso:
+## Login exitoso:
 {
   "message": "Login exitoso",
   "user": "admin"
 }
 
 
-##Login fallido:
+## Login fallido:
 {
   "username": "admin",
   "password": "wrongpassword"
 }
 
-##Login sin autorización:
+## Login sin autorización:
 {
   "detail": "Credenciales incorrectas"
 }
